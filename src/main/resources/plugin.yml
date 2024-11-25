@@ -1,0 +1,12 @@
+name: TagPlayer
+version: '${project.version}'
+main: me.icecube.tagplayer.TagPlayer
+api-version: '1.16'
+commands:
+  tag:
+    description: включение\отключение тегов
+    usage: /tag
+    permission: tag.use
+permissions:
+  tag.use:
+    default: op
